@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+Pro:wght@300;600&display=swap");
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    overflow-x: hidden;
+}
+
+.nav-bar a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+main .container {
+    height: 80vh;
+    background-image: url(./multimedia/bike1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+main .container .info {
+    grid-column: 7 / 10;
+    grid-row: 3 / 7;
+    color: #fff;
+}
+
+main .container .info h2 {
+    font-size: 5em;
+    color: white;
+}
+
+.container2 {
+    height: 80vh;
+    background-image: url(./multimedia/bike2.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+main .container2 .info2 {
+    grid-column: 5 / 3;
+    grid-row: 3 / 7;
+    color: rgb(230, 52, 52);
+}
+
+main .container2 .info2 h2 {
+    font-size: 5em;
+    color: rgb(230, 52, 52);
+}
+
+.subir {
+    height: 35px;
+    width: 35px;
+    font-size: 30px;
+    line-height: 32px;
+    color: rgb(63, 134, 240);
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

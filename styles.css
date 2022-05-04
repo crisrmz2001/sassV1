@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Source+Sans+Pro:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  overflow-x: hidden;
+}
+
+.nav-bar a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.carousel-inner {
+  max-height: 39rem;
+}
+
+main .container {
+  height: 80vh;
+  background-image: url(./multimedia/bike1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+main .container .info {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 3;
+  grid-column: 7 / 10;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 4;
+  grid-row: 3 / 7;
+  color: #fff;
+}
+
+main .container .info h2 {
+  font-size: 5em;
+  color: white;
+}
+
+.container2 {
+  height: 80vh;
+  background-image: url(./multimedia/bike2.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+main .container2 .info2 {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: -2;
+  grid-column: 5 / 3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 4;
+  grid-row: 3 / 7;
+  color: #e63434;
+}
+
+main .container2 .info2 h2 {
+  font-size: 5em;
+  color: #e63434;
+}
+
+.subir {
+  height: 35px;
+  width: 35px;
+  font-size: 30px;
+  line-height: 32px;
+  color: #3f86f0;
+  text-align: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
